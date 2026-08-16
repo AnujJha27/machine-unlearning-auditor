@@ -1,0 +1,93 @@
+{
+  "n_runs": 3,
+  "summary": {
+    "original": {
+      "test_accuracy": {
+        "mean": 0.898,
+        "std": 0.0037749172176353486
+      },
+      "canary_trigger_confidence": {
+        "mean": 0.9760726165771484,
+        "std": 0.013472091513870618
+      },
+      "membership_auc": {
+        "mean": 0.5757444302241007,
+        "std": 0.021986944271088854
+      },
+      "oracle_output_l1": {
+        "mean": 0.019276907046635944,
+        "std": 0.0030489676074981504
+      },
+      "oracle_representation_cka": {
+        "mean": 0.9779289960861206,
+        "std": 0.011466783254237344
+      }
+    },
+    "retrain_oracle": {
+      "test_accuracy": {
+        "mean": 0.8853333333333333,
+        "std": 0.011547005383792526
+      },
+      "canary_trigger_confidence": {
+        "mean": 0.09910775502522787,
+        "std": 0.016481469683528593
+      },
+      "membership_auc": {
+        "mean": 0.5206022361914316,
+        "std": 0.03623274444498351
+      },
+      "oracle_output_l1": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "oracle_representation_cka": {
+        "mean": 1.0,
+        "std": 0.0
+      }
+    },
+    "retain_finetune": {
+      "test_accuracy": {
+        "mean": 0.9071666666666667,
+        "std": 0.002843120351538643
+      },
+      "canary_trigger_confidence": {
+        "mean": 0.955144780476888,
+        "std": 0.015433855955954392
+      },
+      "membership_auc": {
+        "mean": 0.6100599964459738,
+        "std": 0.044036481889932956
+      },
+      "oracle_output_l1": {
+        "mean": 0.018177973727385204,
+        "std": 0.00563675013337558
+      },
+      "oracle_representation_cka": {
+        "mean": 0.9771793286005656,
+        "std": 0.01305594495086506
+      }
+    },
+    "scrub": {
+      "test_accuracy": {
+        "mean": 0.8261666666666666,
+        "std": 0.007686568371733464
+      },
+      "canary_trigger_confidence": {
+        "mean": 0.9743470255533854,
+        "std": 0.030771656056453527
+      },
+      "membership_auc": {
+        "mean": 0.5132244427998861,
+        "std": 0.08970805823139442
+      },
+      "oracle_output_l1": {
+        "mean": 0.03248636114100615,
+        "std": 0.005287411171301953
+      },
+      "oracle_representation_cka": {
+        "mean": 0.9799873034159342,
+        "std": 0.008955603047798915
+      }
+    }
+  }
+}
