@@ -1,0 +1,16 @@
+{
+  "no_op": {
+    "oracle_divergence": 0.0014367473141746092,
+    "parameter_distance": 0.10705049070631516,
+    "membership_signal": 0.10539332965997739,
+    "canary_confidence": 0.9999999991268878,
+    "retain_accuracy": 0.9920168067226891
+  },
+  "fine_tune": {
+    "oracle_divergence": 0.00039359765222809215,
+    "parameter_distance": 0.029666441153408118,
+    "membership_signal": 0.10414331697845569,
+    "canary_confidence": 0.9999999993305476,
+    "retain_accuracy": 0.992436974789916
+  }
+}
